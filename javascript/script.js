@@ -6,6 +6,15 @@ const input = document.querySelector('.input_search');
 const prev = document.querySelector('.btn-prev');
 const next = document.querySelector('.btn-next');
 
+const pokemonHp = document.querySelector('.pokemon_hp');
+const pokemonAtaque = document.querySelector('.pokemon_ataque');
+const pokemonDefesa = document.querySelector('.pokemon_defesa');
+const pokemonAtaqueEspecial = document.querySelector('.pokemon_ataqueEspecial');
+const pokemonDefesaEspecial = document.querySelector('.pokemon_defesaEspecial');
+const pokemonVelociadade = document.querySelector('.pokemon_velocidade');
+
+const pokemonImage2 = document.querySelector('.pokemon_image2');
+
 let searchPokemon = 1;
 
 // buscar pokemon
@@ -29,16 +38,33 @@ const renderPokemon = async (pokemon) =>{
     if(data){
         
         pokemonImage.style.display = 'block';
+        pokemonImage2.style.display = 'block';
         pokemonName.innerHTML = data['name'];
         pokemonNumber.innerHTML = data['id'];
         pokemonImage.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
         input.value = '';
         searchPokemon = data['id'];
 
+        pokemonHp.innerHTML = data['stats']['0']['base_stat'];
+        pokemonAtaque.innerHTML = data['stats']['1']['base_stat'];
+        pokemonDefesa.innerHTML = data['stats']['2']['base_stat'];
+        pokemonAtaqueEspecial.innerHTML = data['stats']['3']['base_stat'];
+        pokemonDefesaEspecial.innerHTML = data['stats']['4']['base_stat'];
+        pokemonVelociadade.innerHTML = data['stats']['5']['base_stat'];
+        pokemonImage2.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
+        
+
     }else{
         pokemonImage.style.display = 'none';
         pokemonName.innerHTML = 'NOT FOUND :(';
-        pokemonNumber.innerHTML = '';
+        pokemonNumber.innerHTML = '?';
+        pokemonHp.innerHTML = '?';
+        pokemonAtaque.innerHTML = '?';
+        pokemonDefesa.innerHTML = '?';
+        pokemonAtaqueEspecial.innerHTML = '?';
+        pokemonDefesaEspecial.innerHTML = '?';
+        pokemonVelociadade.innerHTML = '?';
+        pokemonImage2.style.display = 'none';
     }
 
 }
