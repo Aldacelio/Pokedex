@@ -15,6 +15,9 @@ const pokemonVelociadade = document.querySelector('.pokemon_velocidade');
 
 const pokemonImage2 = document.querySelector('.pokemon_image2');
 
+const btn = document.getElementById('verMais');
+const container = document.querySelector('.fundoStats');
+
 let searchPokemon = 1;
 
 // buscar pokemon
@@ -96,6 +99,17 @@ next.addEventListener('click', () =>{
         renderPokemon(searchPokemon);
     }
     
+});
+
+btn.addEventListener('click', function() {
+    
+  if(container.style.display === 'block') {
+    container.style.display = 'none';
+    btn.textContent = 'VER STATS DO POKÉMON';
+  } else {
+    btn.textContent = 'VER MENOS SOBRE O POKÉMON';
+    container.style.display = 'block';
+  }
 });
 
 renderPokemon(searchPokemon);

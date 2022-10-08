@@ -13,25 +13,21 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
 }
 
 main {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     background-color: white;
-    height: 96vh;
+    position: relative;
+    max-height: 150vh;
+    padding-bottom: 2%;
 }
 
 #conteudo {
     display: inline-block;
-    padding: 15px;
-    position: relative;
-}
-
-#informacoes {
-    display: block;
     padding: 15px;
     position: relative;
 }
@@ -115,12 +111,34 @@ main {
     color: black;
 }
 
-.fundoStatus {
-    width: 100%;
+#verMais{
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    color: #fff;
+    background-color: #111;
+    font-size: 130%;
+    font-weight: bold;
+    width: 70%;
+}
+
+#verMais:hover{
+    cursor: pointer;
+    border: 2px;
+    background-color: #575f68;
+}
+
+.fundoStats {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #111;
     padding-bottom: 3%;
     padding-top: 2%;
-    display: block;
+    margin-top: 0.2%;
+    display: none;
 }
 
 #tituloForm {
@@ -135,7 +153,7 @@ main {
 
 }
 
-.status,
+.stats,
 fieldset {
 
     width: 100%;
@@ -160,13 +178,13 @@ fieldset {
     font-weight: bold;
 }
 
-#bloco1 {
+.bloco1 {
     text-align: justify;
     padding-left: 5%;
     float: left;
 }
 
-#bloco2 {
+.bloco2 {
     text-align: justify;
     display: block;
     margin-left: 23%;
@@ -212,7 +230,7 @@ fieldset {
         font-size: 230%;
     }
 
-    .status {
+    .stats {
         width: 98%;
     }
 }
@@ -230,8 +248,11 @@ fieldset {
         font-size: 210%;
     }
 
-    .status {
+    .stats {
         width: 95%;
+    }
+    .fundostats{
+        width: 80%;
     }
 }
 
@@ -256,7 +277,10 @@ fieldset {
         font-size: 190%;
     }
 
-    .status {
+    .stats {
+        width: 90%;
+    }
+    .fundostats{
         width: 90%;
     }
 }
@@ -278,7 +302,7 @@ fieldset {
         font-size: 170%;
     }
 
-    .status {
+    .stats {
         width: 85%;
     }
 
@@ -291,6 +315,21 @@ fieldset {
 
         margin-right: 10%;
 
+    }
+    .fundostats{
+        width: 100%;
+    }
+    .texto {
+        font-size: 110%;
+    }
+
+    .pokemon_hp,
+    .pokemon_ataque,
+    .pokemon_defesa,
+    .pokemon_ataqueEspecial,
+    .pokemon_defesaEspecial,
+    .pokemon_velocidade {
+        font-size: 95%;
     }
 }
 
@@ -319,12 +358,11 @@ fieldset {
         font-size: 140%;
     }
 
-    .status {
+    .stats {
         width: 75%;
     }
-
     .texto {
-        font-size: 110%;
+        font-size: 90%;
     }
 
     .pokemon_hp,
@@ -333,7 +371,7 @@ fieldset {
     .pokemon_ataqueEspecial,
     .pokemon_defesaEspecial,
     .pokemon_velocidade {
-        font-size: 95%;
+        font-size: 75%;
     }
 
 }
@@ -362,9 +400,8 @@ fieldset {
     #tituloForm {
         font-size: 120%;
     }
-
     .texto {
-        font-size: 90%;
+        font-size: 70%;
     }
 
     .pokemon_hp,
@@ -373,7 +410,7 @@ fieldset {
     .pokemon_ataqueEspecial,
     .pokemon_defesaEspecial,
     .pokemon_velocidade {
-        font-size: 75%;
+        font-size: 55%;
     }
 }
 
@@ -399,9 +436,8 @@ fieldset {
     #tituloForm {
         font-size: 100%;
     }
-
     .texto {
-        font-size: 70%;
+        font-size: 60%;
     }
 
     .pokemon_hp,
@@ -410,7 +446,11 @@ fieldset {
     .pokemon_ataqueEspecial,
     .pokemon_defesaEspecial,
     .pokemon_velocidade {
-        font-size: 55%;
+        font-size: 45%;
+    }
+
+    #verMais{
+        font-size: 100%;
     }
 }
 
@@ -419,4 +459,20 @@ fieldset {
         width: 40%;
         padding: 0px;
     }
+    .texto {
+        font-size: 50%;
+    }
+
+    .pokemon_hp,
+    .pokemon_ataque,
+    .pokemon_defesa,
+    .pokemon_ataqueEspecial,
+    .pokemon_defesaEspecial,
+    .pokemon_velocidade {
+        font-size: 35%;
+    }
+    #verMais{
+        font-size: 90%;
+    }
+
 }
