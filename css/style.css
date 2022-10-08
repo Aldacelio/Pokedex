@@ -255,6 +255,18 @@ fieldset {
     .fundostats {
         width: 80%;
     }
+    .texto {
+        font-size: 110%;
+    }
+
+    .pokemon_hp,
+    .pokemon_ataque,
+    .pokemon_defesa,
+    .pokemon_ataqueEspecial,
+    .pokemon_defesaEspecial,
+    .pokemon_velocidade {
+        font-size: 95%;
+    }
 }
 
 @media (max-width:858px) {
@@ -284,6 +296,18 @@ fieldset {
 
     .fundostats {
         width: 90%;
+    }
+    .texto {
+        font-size: 100%;
+    }
+
+    .pokemon_hp,
+    .pokemon_ataque,
+    .pokemon_defesa,
+    .pokemon_ataqueEspecial,
+    .pokemon_defesaEspecial,
+    .pokemon_velocidade {
+        font-size: 85%;
     }
 }
 
@@ -322,9 +346,8 @@ fieldset {
     .fundostats {
         width: 100%;
     }
-
     .texto {
-        font-size: 110%;
+        font-size: 85%;
     }
 
     .pokemon_hp,
@@ -333,7 +356,7 @@ fieldset {
     .pokemon_ataqueEspecial,
     .pokemon_defesaEspecial,
     .pokemon_velocidade {
-        font-size: 95%;
+        font-size: 70%;
     }
 }
 
@@ -366,17 +389,12 @@ fieldset {
         width: 75%;
     }
 
-    .texto {
-        font-size: 90%;
+    .bloco2{
+        margin-left: 30%;
+        margin-right: 10% ;
     }
-
-    .pokemon_hp,
-    .pokemon_ataque,
-    .pokemon_defesa,
-    .pokemon_ataqueEspecial,
-    .pokemon_defesaEspecial,
-    .pokemon_velocidade {
-        font-size: 75%;
+    .pokemon_image2{
+        margin-right:5% ;
     }
 
 }
@@ -407,7 +425,7 @@ fieldset {
     }
 
     .texto {
-        font-size: 70%;
+        font-size: 75%;
     }
 
     .pokemon_hp,
@@ -416,7 +434,7 @@ fieldset {
     .pokemon_ataqueEspecial,
     .pokemon_defesaEspecial,
     .pokemon_velocidade {
-        font-size: 55%;
+        font-size: 60%;
     }
 }
 
@@ -444,7 +462,7 @@ fieldset {
     }
 
     .texto {
-        font-size: 60%;
+        font-size: 65%;
     }
 
     .pokemon_hp,
@@ -453,7 +471,7 @@ fieldset {
     .pokemon_ataqueEspecial,
     .pokemon_defesaEspecial,
     .pokemon_velocidade {
-        font-size: 45%;
+        font-size: 50%;
     }
 
     #verMais {
@@ -461,7 +479,7 @@ fieldset {
     }
 }
 
-@media (max-width:381px) {
+@media (max-width:398px) {
     .button {
         width: 40%;
         padding: 0px;
