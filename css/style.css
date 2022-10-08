@@ -269,7 +269,7 @@ fieldset {
         font-size: 95%;
     }
 }
-
+/*apartir do tamanho 858 quebra*/
 @media (max-width:858px) {
     p {
         font-size: 190%;
