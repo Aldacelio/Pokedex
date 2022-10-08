@@ -255,6 +255,7 @@ fieldset {
     .fundostats {
         width: 80%;
     }
+
     .texto {
         font-size: 110%;
     }
@@ -297,6 +298,7 @@ fieldset {
     .fundostats {
         width: 90%;
     }
+
     .texto {
         font-size: 100%;
     }
@@ -346,6 +348,7 @@ fieldset {
     .fundostats {
         width: 100%;
     }
+
     .texto {
         font-size: 85%;
     }
@@ -389,12 +392,13 @@ fieldset {
         width: 75%;
     }
 
-    .bloco2{
+    .bloco2 {
         margin-left: 30%;
-        margin-right: 10% ;
+        margin-right: 10%;
     }
-    .pokemon_image2{
-        margin-right:5% ;
+
+    .pokemon_image2 {
+        margin-right: 5%;
     }
 
 }
