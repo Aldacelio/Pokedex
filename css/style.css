@@ -111,7 +111,7 @@ main {
     color: black;
 }
 
-#verMais{
+#verMais {
     border: none;
     display: block;
     margin-left: auto;
@@ -124,7 +124,7 @@ main {
     width: 70%;
 }
 
-#verMais:hover{
+#verMais:hover {
     cursor: pointer;
     border: 2px;
     background-color: #575f68;
@@ -251,7 +251,8 @@ fieldset {
     .stats {
         width: 95%;
     }
-    .fundostats{
+
+    .fundostats {
         width: 80%;
     }
 }
@@ -280,7 +281,8 @@ fieldset {
     .stats {
         width: 90%;
     }
-    .fundostats{
+
+    .fundostats {
         width: 90%;
     }
 }
@@ -316,9 +318,11 @@ fieldset {
         margin-right: 10%;
 
     }
-    .fundostats{
+
+    .fundostats {
         width: 100%;
     }
+
     .texto {
         font-size: 110%;
     }
@@ -361,6 +365,7 @@ fieldset {
     .stats {
         width: 75%;
     }
+
     .texto {
         font-size: 90%;
     }
@@ -400,6 +405,7 @@ fieldset {
     #tituloForm {
         font-size: 120%;
     }
+
     .texto {
         font-size: 70%;
     }
@@ -436,6 +442,7 @@ fieldset {
     #tituloForm {
         font-size: 100%;
     }
+
     .texto {
         font-size: 60%;
     }
@@ -449,7 +456,7 @@ fieldset {
         font-size: 45%;
     }
 
-    #verMais{
+    #verMais {
         font-size: 100%;
     }
 }
@@ -459,6 +466,7 @@ fieldset {
         width: 40%;
         padding: 0px;
     }
+
     .texto {
         font-size: 50%;
     }
@@ -471,7 +479,8 @@ fieldset {
     .pokemon_velocidade {
         font-size: 35%;
     }
-    #verMais{
+
+    #verMais {
         font-size: 90%;
     }
 
