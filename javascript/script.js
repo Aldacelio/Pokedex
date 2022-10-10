@@ -16,7 +16,11 @@ const pokemonVelociadade = document.querySelector('.pokemon_velocidade');
 const pokemonImage2 = document.querySelector('.pokemon_image2');
 
 const btn = document.getElementById('verMais');
-const container = document.querySelector('.fundoStats');
+const container = document.querySelector('.stats');
+const container1 = document.querySelector('#tituloForm');
+const container2 = document.querySelector('.field');
+const container3 = document.querySelector('.bloco1');
+const container4 = document.querySelector('.bloco2');
 
 let searchPokemon = 1;
 
@@ -37,11 +41,13 @@ const renderPokemon = async (pokemon) => {
     pokemonNumber.innerHTML = '';
 
     const data = await fetchPokemon(pokemon);
-    
+
     if (data && data['id'] < 650) {
 
         pokemonImage.style.display = 'block';
-        pokemonImage2.style.display = 'block';
+        if (pokemonImage2.style.display === 'none') {
+            pokemonImage2.style.display = 'block';
+        }
         pokemonName.innerHTML = data['name'];
         pokemonNumber.innerHTML = data['id'];
         pokemonImage.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
@@ -105,10 +111,20 @@ btn.addEventListener('click', function () {
 
     if (container.style.display === 'block') {
         container.style.display = 'none';
+        container1.style.display = 'none';
+        container2.style.display = 'none';
+        container3.style.display = 'none';
+        container4.style.display = 'none';
+        pokemonImage2.style.display = 'none';
         btn.textContent = 'VER STATS DO POKÉMON';
     } else {
-        btn.textContent = 'VER MENOS SOBRE O POKÉMON';
+        btn.textContent = 'VER MENOS SOBRE O POKÉMON';  
         container.style.display = 'block';
+        container1.style.display = 'block';
+        container2.style.display = 'block';
+        container3.style.display = 'block';
+        container4.style.display = 'block';
+        pokemonImage2.style.display = 'block';
     }
 });
 
