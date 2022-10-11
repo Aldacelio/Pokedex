@@ -21,6 +21,10 @@
 
 <p align="justify">As funcionalidades disponivel nesta pokédex é pesquisar pokemon por seu nome ou id, visualizar o proximo pokemon ou anterior através dos botões next e prev, ver os stats do pokémon e sua imagem.</p>
 
+<div align="center">
+<img src="https://github.com/Aldacelio/Pokedex/blob/main/imagens/Funcionalidades.gif" width="600px" height="400px">
+</div>
+
 # Tecnologias utilizadas
 
 # Inicialização
