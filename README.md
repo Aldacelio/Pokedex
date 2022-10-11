@@ -25,15 +25,13 @@
 <img src="https://github.com/Aldacelio/Pokedex/blob/main/imagens/Funcionalidades.gif" width="600px" height="400px">
 </div>
 
-# Tecnologias utilizadas
+<h1 align="center" id="descricao">Tecnologias utilizadas</h1>
 
+<p align="center"><img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> JAVASCRIPT
+<img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> HTML
+<img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">CSS</p>
 
-
-# Colaboradores
-
-
-
-
+##
 
         
             
