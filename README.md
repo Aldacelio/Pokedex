@@ -13,11 +13,12 @@
 <img src="https://img.shields.io/badge/STATUS-CONCLUIDO-green">
 </div>
 
-# Descrição do projeto
+<h1 align="center" id="descricao">Descrição</h1>
 
-  <div>
-   Este é o projeto de uma pokedex que contará com dados até a 5ª geração de pokemons, nela você conseguirar ver o id do pokemon, seu nome e caso deseje      poderá ver também os stas base do mesmo como: ataque, defesa, hp e etc.
+  <div aling="center">
+   Este é o projeto de uma pokedex que contará com dados até a 5ª geração de pokemons, nela você conseguirar ver o id do pokemon, seu nome e caso deseje    poderá ver também os stas base do mesmo como: ataque, defesa, hp e etc.
   </div>
+
   
 # Funcionalidades do projeto
 
