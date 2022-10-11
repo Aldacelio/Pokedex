@@ -27,11 +27,10 @@
 
 # Tecnologias utilizadas
 
-# Inicialização
+
 
 # Colaboradores
 
-# Status do projeto
 
 
 
