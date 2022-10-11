@@ -1,7 +1,20 @@
+<h1 align="center">Sumário</h1>
+
+- [Titulo e Banner](#titulo)
+- [Badge](#badge)
+- [Descrição](#descricao)
+- [Funcionalidades do projeto](#funcionalidades)
+- [Tecnologias utilizadas](#tecnologias)
+
+##
+
 <!--AQUI COMEÇA O README-->
 <h1 align="center" id="titulo">Pokédex</h1>
 
 <img src="https://raw.githubusercontent.com/Aldacelio/Pokedex/main/imagens/bannerPokemon.webp" width="1300px">
+
+<h1 align="center" id="badge">Badges</h1>
+
 <div align="center">
 <a href="https://github.com/Aldacelio/Pokedex/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Aldacelio/Pokedex"></a>
 <a href="https://github.com/Aldacelio/Pokedex/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Aldacelio/Pokedex"></a>
@@ -25,7 +38,7 @@
 <img src="https://github.com/Aldacelio/Pokedex/blob/main/imagens/Funcionalidades.gif" width="600px" height="400px">
 </div>
 
-<h1 align="center" id="descricao">Tecnologias utilizadas</h1>
+<h1 align="center" id="tecnologias">Tecnologias utilizadas</h1>
 
 <p align="center"><img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> JAVASCRIPT
 <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> HTML
