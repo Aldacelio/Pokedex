@@ -15,12 +15,11 @@
 
 <h1 align="center" id="descricao">Descrição</h1>
 
-  <div aling="center">
-   Este é o projeto de uma pokedex que contará com dados até a 5ª geração de pokemons, nela você conseguirar ver o id do pokemon, seu nome e caso deseje    poderá ver também os stas base do mesmo como: ataque, defesa, hp e etc.
-  </div>
+<p align="justify" width="10px">Neste projeto o objetivo é criar uma pokédex que reconhece pokemons da 1ª até a 5ª geração. Também devem ser mostrados dados sobre o pokemon como nome e id e caso o usuario deseje deve ser disponibilizado alguns stats base do mesmo como por exemplo ataque, hp e etc.</p>
 
-  
-# Funcionalidades do projeto
+<h1 align="center" id="funcionalidades">Funcionalidades do projeto</h1>
+
+<p align="justify">As funcionalidades disponivel nesta pokédex é pesquisar pokemon por seu nome ou id, visualizar o proximo pokemon ou anterior através dos botões next e prev, ver os stats do pokémon e sua imagem.</p>
 
 # Tecnologias utilizadas
 
